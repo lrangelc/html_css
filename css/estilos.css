@@ -101,3 +101,54 @@ nav li a:hover {
 .main_button:hover {
     background-color: var(--green-alt-color);
 }
+
+
+/* Beneficios */
+.beneficios{
+    padding: 10%;
+    display: flex;
+  }
+  
+  .beneficio{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .beneficio img{
+    max-height: 100px
+  }
+  
+  .text_beneficio{
+    text-align: justify;
+  }
+  
+  /* Mentions */
+  .mentions{
+    display: flex;
+    padding: 5%;
+  }
+  .mention img{
+    width: 100%;
+  }
+  h2.mention_title{
+    text-align: center;
+  }
+  .mention{
+    padding: var(--space);
+  }
+  .content_mention{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+  }
+  .mention .text{
+    padding: var(--space);
+  }
+  
+  /* ------------------------------------------- Footer */
+  footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--normal);
+    background-color: var(--black-color);
+    padding: var(--space);
+    color: var(--white-color);
+  }
