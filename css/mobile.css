@@ -3,7 +3,7 @@
     .products {
         display: inherit;
         height: auto;
-        /* max-height: none; */
+        max-height: none;
     }
 
     .product {
@@ -16,8 +16,8 @@
 
     .beneficios,
     .mentions {
-        display: inherit;
+        /* display: inherit; */
+        flex-wrap: wrap;
     }
-
 
 }
