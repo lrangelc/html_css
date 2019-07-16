@@ -1,18 +1,23 @@
 @media (max-width: 600px) {
 
-    .products{
-      display: inherit;
-      height: auto;
+    .products {
+        display: inherit;
+        height: auto;
+        /* max-height: none; */
     }
-    .product{
-      margin-top: auto;
+
+    .product {
+        margin-top: auto;
     }
-    .main_section{
-      padding: 4%;
+
+    .main_section {
+        padding: 4%;
     }
-    .beneficios, .mentions{
-      display: inherit;
+
+    .beneficios,
+    .mentions {
+        display: inherit;
     }
-  
-  
-  }
+
+
+}

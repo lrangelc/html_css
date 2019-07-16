@@ -2,17 +2,18 @@
 
 /********************** variables */
 :root {
-    --green-color:#7ACC2D;
-    --green-alt-color:#5e9e22;
-    --space:10px;
+    --green-color: #7ACC2D;
+    --green-alt-color: #5e9e22;
+    --space: 10px;
 
     /* Tipografia */
-    --normal:12px;
+    --normal: 12px;
 
-    --box:0 0 1px #c1bcbc;
+    --box: 0 0 1px #c1bcbc;
 }
 
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     font-size: var(--normal);
@@ -31,6 +32,7 @@ nav {
 nav img {
     width: 100px;
 }
+
 nav ul {
     display: flex;
 }
@@ -46,7 +48,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: white; 
+    color: white;
 }
 
 
@@ -104,51 +106,56 @@ nav li a:hover {
 
 
 /* Beneficios */
-.beneficios{
+.beneficios {
     padding: 10%;
     display: flex;
-  }
-  
-  .beneficio{
+}
+
+.beneficio {
     text-align: center;
     padding: 20px;
-  }
-  
-  .beneficio img{
+}
+
+.beneficio img {
     max-height: 100px
-  }
-  
-  .text_beneficio{
+}
+
+.text_beneficio {
     text-align: justify;
-  }
-  
-  /* Mentions */
-  .mentions{
+}
+
+/* Mentions */
+.mentions {
     display: flex;
     padding: 5%;
-  }
-  .mention img{
+}
+
+.mention img {
     width: 100%;
-  }
-  h2.mention_title{
+}
+
+h2.mention_title {
     text-align: center;
-  }
-  .mention{
+}
+
+.mention {
     padding: var(--space);
-  }
-  .content_mention{
+}
+
+.content_mention {
     box-shadow: 0px 0 2px 1px #e6e5e9;
-  }
-  .mention .text{
+}
+
+.mention .text {
     padding: var(--space);
-  }
-  
-  /* ------------------------------------------- Footer */
-  footer{
+}
+
+/* ------------------------------------------- Footer */
+footer {
     display: flex;
     justify-content: space-between;
     font-size: var(--normal);
     background-color: var(--black-color);
     padding: var(--space);
     color: var(--white-color);
-  }
+}
