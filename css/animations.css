@@ -1,0 +1,55 @@
+/* _                   _                        
+   /\        (_)                 (_)                       
+  /  \  ____  _ ____   ____  ____ _  ___  ____   ____  ___ 
+ / /\ \|  _ \| |    \ / _  |/ ___) |/ _ \|  _ \ / _  )/___)
+| |__| | | | | | | | ( ( | ( (___| | |_| | | | ( (/ /|___ |
+|______|_| |_|_|_|_|_|\_||_|\____)_|\___/|_| |_|\____|___/  */
+                                                        
+.fadeIn {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeInDown {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.fadeInUp {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
